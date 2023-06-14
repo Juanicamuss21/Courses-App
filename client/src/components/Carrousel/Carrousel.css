@@ -1,0 +1,122 @@
+.slick-slider {
+    margin: 0 2rem;
+    /* outline: 3px solid gray; */
+    position: relative;
+}
+
+.img-flex{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* outline: 3px solid red; */
+}
+
+.slick-prev:before, .slick-next:before {
+    position: relative;
+    bottom: 10px;
+    color: #27374D !important;
+}
+
+.div-img-carrousel{     
+    height: 210px;
+}
+
+.div-img-carrousel:hover{
+  transition: all 0.6s ease-in-out;
+  transform: scale(1.05);
+}
+
+.img-carrousel{
+    cursor: pointer;
+    width: 290px;
+    margin: 5px 0;
+    border: 2px solid #000;
+}
+
+.img-carrousel :focus{
+    outline: none;
+}
+
+.autor-check{
+    width: 290px;
+}
+
+.icon-check{
+    position: relative;
+    top: 3px;
+    color: #3DADF2;
+}
+
+.autor-card{
+    text-decoration: none;
+    color: #000;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+} 
+
+.img-btn-delete {
+    position: relative;
+}
+
+.icon-delete{
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.btn-delete{
+    position: absolute;
+    top: 5px;
+    right: 2.2rem;
+    z-index: 1;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+
+@media (max-width: 1120px) {
+    .img-carrousel{
+        width: 270px;
+    }
+
+    .autor-check{
+        width: 270px;
+    }
+  }
+  
+  /* Para pantallas menores a 800px */
+  @media (max-width: 890px) {
+
+    .img-carrousel{
+        width: 250px;
+    }
+
+    .autor-check{
+        width: 250px;
+    }
+    
+  }
+  
+  /* Para pantallas menores a 600px */
+  @media (max-width: 600px) {
+
+    .slick-slider {
+        height: 160px;
+    }
+
+    /* .img-flex{
+        width: 230px;
+    } */
+      
+    .autor-card{
+        font-size: 12px;
+    }  
+        
+    .img-carrousel{
+        width: 200px;
+    }
+
+    .autor-check{
+        width: 200px;
+    }
+  }       

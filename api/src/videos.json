@@ -1,0 +1,1049 @@
+[
+{
+    "id": 1,
+    "autor" : "midudev",
+    "image": "https://i.ytimg.com/vi/T_j60n1zgu0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCdHbJoIJi12LUWgKLpgP1KifcVIw",
+    "images": [
+        {
+            "id": 1,
+            "title": "Curso REACT JS ⚛️ - Aprende desde CERO 📈 Componentes, State, JSX", 
+            "description": "Te enseño React desde cero. 👨‍🏫 ¿Qué es React? ¿Por qué deberías aprenderlo? ¿Por qué lo necesitamos? ¿Qué es JSX 🤔? Props y State. Eventos. Renderizado condicional y useState. 🔥",
+            "video": "https://www.youtube.com/embed/T_j60n1zgu0"
+        }, 
+        {
+            "id": 2,
+            "title": "Crea una app con React usando create-react-app", 
+            "description": "Ahora que ya sabemos qué es React ⚛️, vamos a crear una pequeña aplicación desde cero para poner en práctica lo que sabemos, hacer un fetching de datos, tener un entorno de desarrollo y añadirle rutas.",
+            "video": "https://www.youtube.com/embed/QBLbXgeXMU8"           
+        }, 
+        {
+            "id": 3,
+            "title": "Creando Custom Hooks y usando Context para conseguir un estado global en ReactJS", 
+            "description": "En la clase en vivo de hoy veremos más hooks, cómo crear nuestros propios hooks (Custom Hooks) y cómo podemos usar el contexto para crear una especie de estado global.",
+            "video": "https://www.youtube.com/embed/2qgs7buSnHQ"
+        }, 
+        {
+            "id": 4,
+            "title": "Lazy Load, Suspense y paginación con React", 
+            "description": "Aprende a usar React.Lazy, el componente de Suspense y cómo hacer paginación fácilmente con React.",
+            "video": "https://www.youtube.com/embed/VcxXipZg1-0"
+        }, 
+        {
+            "id": 5,
+            "title": "CSS Grid, Infinite Scroll y Tests en nuestra app de React", 
+            "description": "Vamos a seguir con nuestra aplicación de Gifs en React para pasar a usar CSS Grid en nuestras búsquedas. Además, vamos a hacer que nuestra app tenga infinite scroll usando React y le añadiremos algunos tests para ver cómo funcionan.",
+            "video": "https://www.youtube.com/embed/oCHdFiCgOSE"
+        }, 
+        {
+            "id": 6,
+            "title": "Cómo usar React.memo, mejorar el rendimiento y hacer deploy con Vercel de nuestra app de React", 
+            "description": "Vamos a optimizar nuestra aplicación para evitar re-renders innecesarios gracias al uso del profiler de React y a deployar nuestra app con Vercel.",
+            "video": "https://www.youtube.com/embed/Wo7_OVtu1ls"
+        }, 
+        {
+            "id": 7,
+            "title": "SEO con React y Deploy integrado con GitHub", 
+            "description": "Veremos cómo añadir SEO a una aplicación generada con create-react-app.",
+            "video": "https://www.youtube.com/embed/b-pwpHaYOTI"
+        }, 
+        {
+            "id": 8,
+            "title": "useReducer y tests de hooks con react-hooks-testing-library", 
+            "description": "Hoy veremos cómo podemos usar el hook useReducer para simplificar tests complicados y además cómo podemos crear tests de nuestros hooks gracias a react-hooks-testing-library.",
+            "video": "https://www.youtube.com/embed/Wjy_nlYXTik"
+        }, 
+        {
+            "id": 9,
+            "title": "Login y Sesión de Usuarios 🔐 para guardar Favoritos ⚛️ [En directo", 
+            "description": "APRENDE a hacer que tu frontend con React pueda AUTENTIFICAR a un usuario con un backend que usa JWT. 🔑 Además usamos hooks, hablamos de buenas prácticas y hacemos pantallas de carga",
+            "video": "https://www.youtube.com/embed/VT5S9Y49SYs"
+        }, 
+        {
+            "id": 10,
+            "title": "Registro de usuario con Formik, React.createPortal y gestión de favoritos en nuestra app de ReactJS", 
+            "description": "En esta clase vamos a ver cómo podemos registrar usuarios utilizando nuestra API de Deno. Para crear el formulario vamos a usar Formik. Además le daremos un estilo visual mejor y, para ello, vamos a aprender a usar el método createPortal, para renderizar componentes en cualquier parte de nuestro DOM.",
+            "video": "https://www.youtube.com/embed/dtbI6gDnTFU"
+        }, 
+        {
+            "id": 11,
+            "title": "CSS en JS y Styled Components con Emotion y React", 
+            "description": "Aprende a usar Emotion con React. Aprende a cómo usar CSS en JS con React y cómo usar Styled Components.",
+            "video": "https://www.youtube.com/embed/DjVGdUM1dHQ"
+        }],
+    "title": "Curso de React desde cero",
+    "category": "Frontend",
+    "description": "Te enseño React desde cero. 👨‍🏫 ¿Qué es React? ¿Por qué deberías aprenderlo? ¿Por qué lo necesitamos? ¿Qué es JSX 🤔? Props y State. Eventos. Renderizado condicional y useState. 🔥",
+    "github": "https://github.com/midudev",
+    "documentation": "https://legacy.reactjs.org/docs/getting-started.html",
+    "createdForUser": false
+},
+{
+    "id": 2,
+    "autor" : "midudev",
+    "image": "https://i.ytimg.com/vi/pFT8wD2uRSE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDJsRNbl0sSrBO7YyBPTBZLVMeTSQ",
+    "images": [{
+        "id": 1,
+        "title": "CURSO de NEXT.JS 12 desde CERO y con dos proyectos prácticos",
+        "video": "https://www.youtube.com/embed/pFT8wD2uRSE"
+    }],
+    "title": "CURSO de NEXT.JS 12 desde CERO y con dos proyectos prácticos",
+    "category": "Backend",
+    "description": "Creamos un proyecto desde cero con Next.js",
+    "github": "https://github.com/midudev",
+    "documentation": "https://nextjs.org/docs",
+    "createdForUser": false
+},
+{
+    "id": 3,
+    "autor" : "Soy Dalto",
+    "image": "https://i.ytimg.com/vi/kN1XP-Bef7w/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLBu3k1ER6D9ULy8CqHz3-AKrtDwGw",
+    "images": [{
+        "id": 1,
+        "title": "Curso de HTML5 desde CERO (Completo)", 
+        "video": "https://www.youtube.com/embed/kN1XP-Bef7w"
+    }],
+    "title": "Curso de HTML5 desde CERO (Completo)",
+    "category": "Frontend",
+    "description": "¿Queres hacer una página web con HTML, CSS y JavaScript? Este es el curso de HTML desde cero que vas a terminar, te prometo que no te vas a aburrir durante el aprendizaje de este gran tutorial de HTML5 Actualizado 2021.",
+    "github": "https://github.com/soydalto",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
+    "createdForUser": false
+},
+{
+    "id": 4,
+    "autor" : "Soy Dalto",
+    "image": "https://i.ytimg.com/vi/OWKXEJN67FE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDmFbGpt6l467mb_phQlBX4rWDYWA",
+    "images": [{
+        "id": 1,
+        "title": "Curso de CSS desde CERO (Completo)",   
+        "video": "https://www.youtube.com/embed/OWKXEJN67FE"
+    }],
+    "title": "Curso de CSS desde CERO (Completo)",
+    "category": "Frontend",
+    "description": "¿Queres hacer una página web con HTML, CSS y JavaScript? Este es el curso de CSS desde cero a experto que vas a terminar, te prometo que no te vas a aburrir durante el aprendizaje de este curso de CSS 3, vas a aprender CSS facil.",
+    "github": "https://github.com/soydalto",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/CSS",
+    "createdForUser": false
+},
+{
+    "id": 5,
+    "autor" : "Soy Dalto",
+    "image": "https://i.ytimg.com/vi/z95mZVUcJ-E/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDZE42kGAD3oXmJMu9UQTbG0FhVkA",
+    "images": [{
+        "id": 1,
+        "title": "Curso de JAVASCRIPT desde CERO (Completo) - Nivel JUNIOR", 
+        "video": "https://www.youtube.com/embed/z95mZVUcJ-E"
+    }],
+    "title": "Curso de JAVASCRIPT desde CERO (Completo) - Nivel JUNIOR",
+    "category": "Frontend",
+    "description": "¿Queres aprender a programar en Javascript desde cero? Este es el curso de javascript desde cero a experto que vas a terminar, te prometo que no te vas a aburrir durante el aprendizaje de este curso de javascript, vas a aprender javascript fácil.",
+    "github": "https://github.com/soydalto",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "createdForUser": false
+},
+{
+    "id": 6,
+    "autor" : "Soy Dalto",
+    "image": "https://i.ytimg.com/vi/nKPbfIU442g/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAG8N3OjE7ZM4PqdyazAlBZhtUi_w",
+    "images": [{
+        "id": 1,
+        "title": "Curso de PYTHON desde CERO (Completo)", 
+        "video": "https://www.youtube.com/embed/nKPbfIU442g"
+    }],
+    "title": "Curso de PYTHON desde CERO (Completo)",
+    "category": "Backend",
+    "description": "¿Queres aprender a programar en Python desde cero? Este es el curso de Python desde cero a experto que vas a terminar, te prometo que no te vas a aburrir durante el aprendizaje de este curso de Python, vas a aprender Python fácil.",    "github": "https://github.com/soydalto",
+    "documentation": "https://www.python.org/doc/",
+    "createdForUser": false
+},
+{
+    "id": 7,
+    "autor" : "Soy Dalto",
+    "image": "https://i.ytimg.com/vi/DFg1V-rO6Pg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC8nc0wrdfxUS2sxLUAuMOoALByrg",
+    "images": [{
+        "id": 1,
+        "title": "Curso de SQL desde CERO (Completo)", 
+        "video": "https://www.youtube.com/embed/DFg1V-rO6Pg"
+    }],
+    "title": "Curso de SQL desde CERO (Completo)",
+    "category": "Backend",
+    "description": "En este curso de SQL desde CERO Completo vas a aprender a manejar SQL, el lenguaje mas usado del mundo para bases de datos relacionales, un lenguaje requisito para cualquier perfil IT.",
+    "github": "https://github.com/soydalto",
+    "documentation": "https://dev.mysql.com/doc/",
+    "createdForUser": false
+},
+{
+    "id": 8,
+    "autor" : "Redes Plus",
+    "image": "https://i.ytimg.com/vi/nlOWsnO-d7Q/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA6dMb4cFWVRwld2cV_Cw58rtAeGg",
+    "images": [
+        {
+            "id": 1,
+            "title": "🍀MongoDB🍀01🍀 ¿Qué es MongoDB", 
+            "description": "En este primer vídeo del curso vamos a ver qué es MongoDB, porque deberíamos aprender MongoDB y también vamos a ver la estructura que vamos a seguir durante el curso.",
+            "video": "https://www.youtube.com/embed/nlOWsnO-d7Q"
+        }, 
+        {
+            "id": 2,
+            "title": "🍀MongoDB🍀02🍀Como instalar Compass🍃 y conectar con Atlas", 
+            "description": "En este vídeo vamos a ver como  instalar MongoDB Compass en Windows  y como conectar con un cluster de Bases de datos en Atlas. Además veremos un poco por encima la interfaz gráfica de Compass.",
+            "video": "https://www.youtube.com/embed/keTtL5fFO0Y"
+        }, 
+        {
+            "id": 3,
+            "title": "🍀MongoDB🍀03🍀 Tipos de datos", 
+            "description": "En este vídeo vamos a ver los valores más comunes para documentos en MongoDB.",
+            "video": "https://www.youtube.com/embed/xUVox3WwVck"
+        }, 
+        {
+            "id": 4,
+            "title": "🍀MongoDB🍀04🍀Como realizar Consultas en Compass de forma gráfica", 
+            "description": "En este vídeo vamos a ver como filtrar los documentos utilizando Compass, la interfaz gráfica de MongoDB.",
+            "video": "https://www.youtube.com/embed/fl_3Jt5MIqo"
+        }, 
+        {
+            "id": 5,
+            "title": "🍀MongoDB🍀05🍀 ¿Qué es JSON", 
+            "description": "En este vídeo vamos a ver que es JSON y que formato utiliza.",
+            "video": "https://www.youtube.com/embed/yLS5t8xuSmE"
+        }, 
+        {
+            "id": 6,
+            "title": "🍀MongoDB🍀06🍀 INSTALAR MONGODB SHELL EN WINDOWS 10🟦", 
+            "description": "En este vídeo vamos a ver como instalar el cliente en línea de comandos de MongoDB en un equipo con  Windows 10. Además, también veremos como conectar con un un Claster de BD en Atlas.",
+            "video": "https://www.youtube.com/embed/SD4OKQ7mvJQ"
+        }, 
+        {
+            "id": 7,
+            "title": "🍀MongoDB🍀07🍀Como Crear un CLUSTER de Bases de datos en ATLAS🍃", 
+            "description": "En este vídeo vamos a ver como crear nuestro propio Cluster de Bases de Datos en Atlas de forma totalmente gratuita y, además, también veremos como conectar con este Cluster desde la interfaz gráfica Compass y desde la interfaz por comandos para que la podamos utilizar como entorno para pruebas.",
+            "video": "https://www.youtube.com/embed/TLPtf9tw7EY"
+        }, 
+        {
+            "id": 8,
+            "title": "🍀MongoDB🍀08🍀Instalar ROBO 3T y STUDIO 3T y conectar con Atlas", 
+            "description": "En este vídeo vamos  a ver como instalar y configurar dos Herramientas muy útiles para utilizar con MongoDB, ROBO 3T y STUDIO 3T. ",
+            "video": "https://www.youtube.com/embed/uXPv6xeuTKM"
+        }, 
+        {
+            "id": 9,
+            "title": "🍀MongoDB🍀09🍀Introducción al Bloque 2: Lenguaje de consultas de MongoBD", 
+            "description": "En este vídeo es una introducción al segundo bloque de este curso, donde veremos el Lenguaje de consultas de MongoBD y cubriremos las operaciones CRUD",
+            "video": "https://www.youtube.com/embed/-WoUpU3h1LA"
+        }, 
+        {
+            "id": 10,
+            "title": "🍀MongoDB🍀10🍀 InsertOne() - Crear documentos", 
+            "description": "En este vídeo vamos a ver como insertar un documento en una colección de MongoDB utilizando el método InsertOne() y, también, utilizando la interfaz gráfica Compass",
+            "video": "https://www.youtube.com/embed/fIq_zVcuhOM"
+        }],
+    "title": "Curso MongoDb",
+    "category": "Backend",
+    "description": "En este curso vamos a ver qué es MongoDB, porque deberíamos aprender MongoDB y también vamos a ver la estructura que vamos a seguir durante el curso.",
+    "github": "https://github.com/redesplus",
+    "documentation": "https://www.mongodb.com/",
+    "createdForUser": false
+},
+{
+    "id": 9,
+    "autor" : "Soy Dalto",
+    "image": "https://i.ytimg.com/vi/xOinGb2MZSk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCGFY3wA7nKzdGxY5pBhlJARxgIcg",
+    "images": [{
+        "id": 1,
+        "title": "Curso de JAVASCRIPT desde CERO (Completo) - Nivel MID LEVEL", 
+        "video": "https://www.youtube.com/embed/xOinGb2MZSk"
+    }],
+    "title": "Curso Javascript(Mid Level)",
+    "category": "Frontend",
+    "description": "¿Queres aprender a programar en Javascript desde cero? Este es el curso de javascript desde cero a experto que vas a terminar, te prometo que no te vas a aburrir durante el aprendizaje de este curso de javascript, vas a aprender javascript fácil.",
+    "github": "https://github.com/soydalto",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "createdForUser": false
+},
+{
+    "id": 10,
+    "autor" : "Soy Dalto",
+    "image": "https://i.ytimg.com/vi/EbMi1Qj4rVE/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCFAloebpiWb468yAHyZlkJyMp0hQ",
+    "images": [{
+        "id": 1,
+        "title": "Curso de JAVASCRIPT desde CERO (Completo) - Nivel Master", 
+        "video": "https://www.youtube.com/embed/EbMi1Qj4rVE"
+    }],
+    "title": "Curso Javascript(A Master)",
+    "category": "Frontend",
+    "description": "Este es el curso de javascript desde cero a experto que vas a terminar, te prometo que no te vas a aburrir durante el aprendizaje de este curso de javascript, vas a aprender javascript fácil",
+    "github": "https://github.com/soydalto",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "createdForUser": false
+},
+{
+    "id": 11,
+    "autor" : "midudev",
+    "image": "https://i.ytimg.com/vi/tA-_vAz9y78/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBVwKOdpuzJxWjFeR8beC8wKw4QJw",
+    "images": [{
+        "id": 1,
+        "title": "📚 Curso de Next.js 13 desde cero", 
+        "video": "https://www.youtube.com/embed/tA-_vAz9y78"
+    }],
+    "title": "Curso NextJS 13 desde Cero",
+    "category": "Others",
+    "description": "Curso desde cero para aprender todo lo que necesitas sobre Next.js 13",
+    "github": "https://github.com/midudev",
+    "documentation": "https://nextjs.org/docs",
+    "createdForUser": false
+},
+{
+    "id": 12,
+    "autor" : "Fazt Code",
+    "image": "https://i.ytimg.com/vi/H_s-xM6Ii1g/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLATAQtOvL5jGt1KrqCbsTjhsxFYNA",
+    "images": [{
+        "id": 1,
+        "title": "Tu Primer Aplicación Web en Nextjs13", 
+        "video": "https://www.youtube.com/embed/H_s-xM6Ii1g"
+    }],
+    "title": "NextJS 13 Primera Aplicación",
+    "category": "Others",
+    "description": "En este tutorial de Nextjs 13, aprenderas a crear tu primera aplicacion de inicio a fin, al mismo tiempo que también podras practicar caracteristicas fundamentales del Framework como los React Server Components (RSC), la carpeta app, Routing, fetch de datos y estilizar la aplicacion para finalmente desplegarlo gratuitamente en Vercel.",
+    "github": "https://github.com/Fazt",
+    "documentation": "https://nextjs.org/docs",
+    "createdForUser": false
+},
+{
+    "id": 13,
+    "autor" : "Hola Mundo Dev",
+    "image": "https://i.ytimg.com/vi/-xDZwb-PY0M/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLChkMdIDhJ9JZ9IKcFvEVLDxqw8oQ",
+    "images": [{
+        "id": 1,
+        "title": "Aprende TypeScript ahora! curso intensivo", 
+        "video": "https://www.youtube.com/embed/-xDZwb-PY0M"
+    }],
+    "title": "Curso de Typescript Intensivo!",
+    "category": "Frontend",
+    "description": "Curso desde cero para aprender todo lo que necesitas sobre Typescript!",
+    "github": "https://github.com/holamundodev",
+    "documentation": "https://www.typescriptlang.org/docs/",
+    "createdForUser": false
+},
+{
+    "id": 14,
+    "autor" : "Kiko Palomares",
+    "image": "https://i.ytimg.com/vi/fY_O1Fb-e5Y/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDSeB-cOdWKCFzr8OU9gyoAjhdLdw",
+    "images": [
+        {
+            "id": 1,
+            "title": "💜 ¿Qué es BOOTSTRAP y para qué sirve", 
+            "description": "¿Quieres aprender Bootstrap 5 de la mejor forma posible?",
+            "video": "https://www.youtube.com/embed/fY_O1Fb-e5Y"
+        }, 
+        {
+            "id": 2,
+            "title": "💜 Aprende Bootstrap 5 en 15 minutos", 
+            "description": "¿Quieres aprender Bootstrap 5 de la mejor forma posible?",
+            "video": "https://www.youtube.com/embed/qgxhrJFTOJs"
+        }, 
+        {
+            "id": 3,
+            "title": "💜 ¡Bootstrap 5 ya está aquí! - ¡Sin jQuery! [+Tutorial]", 
+            "description": "¿Quieres aprender Bootstrap 5 de la mejor forma posible?",
+            "video": "https://www.youtube.com/embed/lSMPejvlc0I"
+        }, 
+        {
+            "id": 4,
+            "title": "💜 Cómo Instalar BOOTSTRAP 5 en un proyecto [uso Visual Studio Code]", 
+            "description": "¿Quieres aprender Bootstrap 5 de la mejor forma posible?",
+            "video": "https://www.youtube.com/embed/kANNWN_--UA"
+        }, 
+        {
+            "id": 5,
+            "title": "💜 Cómo PERSONALIZAR los estilos CSS en BOOTSTRAP 5 con SASS ✅ (crea tu propio tema!)", 
+            "description": "¿Quieres aprender Bootstrap 5 de la mejor forma posible?",
+            "video": "https://www.youtube.com/embed/jAhe6zFZbcY"
+        }, 
+        {
+            "id": 6,
+            "title": "💜 Los Containers de BOOTSTRAP 5 [Bien Explicados]", 
+            "description": "¿Quieres aprender Bootstrap 5 de la mejor forma posible?",
+            "video": "https://www.youtube.com/embed/BGYW4YSlMAo"
+        }, 
+        {
+            "id": 7,
+            "title": "💜 El GRID (Filas y Columnas) en Bootstrap 5", 
+            "description": "¿Quieres aprender Bootstrap 5 de la mejor forma posible?",
+            "video": "https://www.youtube.com/embed/k8ovx51cEBg"
+        }, 
+        {
+            "id": 8,
+            "title": "💜 Cómo alinear y ordenar Filas y Columnas en Bootstrap 5", 
+            "description": "¿Quieres aprender Bootstrap 5 de la mejor forma posible?",
+            "video": "https://www.youtube.com/embed/18DhVDqY-Vw"
+        }, 
+        {
+            "id": 9,
+            "title": "💜 ¿Qué es el GUTTER en Bootstrap 5", 
+            "description": "¿Quieres aprender Bootstrap 5 de la mejor forma posible?",
+            "video": "https://www.youtube.com/embed/AWwQyD8SRpw"
+        }, 
+        {
+            "id": 10,
+            "title": "💜 TODO sobre FILAS y COLUMNAS en BOOTSTRAP 5 (grid system)", 
+            "description": "¿Quieres aprender Bootstrap 5 de la mejor forma posible?",
+            "video": "https://www.youtube.com/embed/4Qwu4b7b3zI"
+        },
+        {
+            "id": 11,
+            "title": "💜 Qué puedes hacer con las TIPOGRAFÍAS en Bootstrap 5", 
+            "description": "¿Quieres aprender Bootstrap 5 de la mejor forma posible?",
+            "video": "https://www.youtube.com/embed/en9WTe21BxA"
+        },
+        {
+            "id": 12,
+            "title": "💜 Usar IMÁGENES y Figuras en Bootstrap 5", 
+            "description": "¿Quieres aprender Bootstrap 5 de la mejor forma posible?",
+            "video": "https://www.youtube.com/embed/iDTTgQ1OCtk"
+        }
+        ],
+    "title": "Curso de Boostrap 5",
+    "category": "Frontend",
+    "description": "Curso de Boostrap 5 completo, explicado al detalle y con sus ultimas versiones.",
+    "github": "https://github.com/kikopalomares",
+    "documentation": "https://getbootstrap.com/docs/5.0/getting-started/introduction/",
+    "createdForUser": false
+},
+{
+    "id": 15,
+    "autor" : "Bluuweb",
+    "image": "https://i.ytimg.com/vi/3xlUAMXui2c/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBajE8FYwSX8FAhHpAUBg5z4t15zg",
+    "images": [
+        {
+            "id": 1,
+            "title": "Tailwind CSS - ⭐ Fundamentos desde Cero ⭐ [Tutorial en Español]", 
+            "description": "¡Crea tus Diseños web fácil y rápido!",
+            "video": "https://www.youtube.com/embed/3xlUAMXui2c"
+        }, 
+        {
+            "id": 2,
+            "title": "Tailwind CSS ⭐ Grid ⭐ [Parte 2]", 
+            "description": "Css Grid es una de las mejores creaciones de los últimos tiempos y Tailwind css lo sabe, por ende trabajar y aplicar sus clases nunca fue más fácil y divertido!",
+            "video": "https://www.youtube.com/embed/97hHnlnxpPQ"
+        }, 
+        {
+            "id": 3,
+            "title": "Tailwind CSS ⭐ Personalización - Instalación npm ⭐ [Parte 3]", 
+            "description": "Lo complejo lo haremos sencillo utilizando la personalización de Tailwind CSS, instalaremos a través de npm (requisito tener instalado node.js), configuraremos los archivos base y listo a jugar en la creación de tu próximo proyecto web.",
+            "video": "https://www.youtube.com/embed/MwVfIP3vuw0"
+        }, 
+        {
+            "id": 4,
+            "title": "Tailwind CSS ⭐ Flexbox ⭐ [Parte 4]", 
+            "description": "¿Se podrá utilizar Flexbox en Tailwind css? exacto! es sumamente fácil aplicar las clases y hacer nuestros proyectos web flexibles!",
+            "video": "https://www.youtube.com/embed/sfTBUHR9pyA"
+        }, 
+        {
+            "id": 5,
+            "title": "Tailwind CSS ⭐ Navbar Responsive ⭐ [Parte 5]", 
+            "description": "Vamos a crear un navbar Responsive (adaptable a diferentes tamaños de pantalla) utilizando Tailwind CSS.",
+            "video": "https://www.youtube.com/embed/16fc0YSn4o8"
+        }, 
+        {
+            "id": 6,
+            "title": "Tailwind CSS ⭐ con React.js ⭐ [Parte 6]", 
+            "description": "Aprendamos a utilizar Tailwind css en tus proyectos de React js, verás que la instalación es sumamente sencilla :)",
+            "video": "https://www.youtube.com/embed/o9DjWGp9HiE"
+        }, 
+        {
+            "id": 7,
+            "title": "Tailwind CSS ⭐ Animaciones y Efectos ⭐ [Parte 7]", 
+            "description": "Aprende a crear animaciones y efectos con TailwindCss",
+            "video": "https://www.youtube.com/embed/N3AEAC7wZdo"
+        }
+        ],
+    
+    "title": "Curso de Tailwind",
+    "category": "Frontend",
+    "description": "Comenzaremos un nuevo curso de Tailwind CSS, un Framework que te permitirá crear sitios web 100% personalizados y sin necesidad de agregar líneas de código CSS adicionales 😱.",
+    "github": "https://github.com/bluuweb",
+    "documentation": "https://tailwindcss.com/docs/installation",
+    "createdForUser": false
+},
+{
+    "id": 16,
+    "autor" : "Fazt Code",
+    "image": "https://i.ytimg.com/vi/794Q71KVw1k/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAHLe2EUbytbz19DSaAYVfjQ7Yw7A",
+    "images": [{
+        "id": 1,
+        "title": "Expressjs | Nodejs Framework para Principiantes", 
+        "video": "https://www.youtube.com/embed/794Q71KVw1k"
+    }],
+    "title": "Curso de Express",
+    "category": "Backend",
+    "description": "Este es el curso de Expressjs, el framework de Nodejs para la creacion de aplicaciones del lado servidor utilizando Javascript.conceptos tipicos del backend como routing, middlewares, manejo de peticiones y respuestas y archivos estaticos.",
+    "github": "https://github.com/Fazt",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction",
+    "createdForUser": false
+},
+{
+    "id": 17,
+    "autor" : "deswebcom",
+    "image": "https://i.ytimg.com/vi/5O9mdl4s1l0/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBr02b5YRC1u4pxJRYMPtgIomLQZQ",
+    "images": [{
+        "id": 1,
+        "title": "Curso de Vite", 
+        "video": "https://www.youtube.com/embed/5O9mdl4s1l0"
+    }],
+    "title": "Curso de Vite",
+    "category": "Backend",
+    "description": "Qué es ViteJS, para qué lo necesitamos y por qué lo recomendamos utilizar frente a otras soluciones similares como Webpack. Práctica de creación de proyectos con Vite y el trabajo con distintos tipos de assets en el desarrollo frontend, como Javascript, CSS, PostCSS, imágenes, etc.Además veremos qué son los plugins de Vite y cómo podemos usar uno que nos permite la compilación del código Javascript para que funcione en navegadores antiguos.",
+    "github": "https://github.com/deswebcom",
+    "documentation": "https://vitejs.dev/guide/why.html",
+    "createdForUser": false
+},
+{
+    "id": 18,
+    "autor" : "Fazt Code",
+    "image": "https://i.ytimg.com/vi/8abt7kqHWoA/hqdefault.jpg?sqp=-oaymwEXCNACELwBSFryq4qpAwkIARUAAIhCGAE=&rs=AOn4CLAWAfeGCfCMLK4U9Wnx3BgeIRfLNA",
+    "images": [
+        {
+            "id": 1,
+            "title": "Webpack | Curso Practico Completo Rápido, Desde Cero", 
+            "description": "En este video te voy a enseñar paso a paso y desde cero a utilizar Webpack, el module bundler o empaquetador de módulos de la web, para que lo uses en todos tus proyectos y luego puedas usarlo con Rect.js, Vue.js o Angular.js si lo deseas.",
+            "video": "https://www.youtube.com/embed/8abt7kqHWoA"
+        }, 
+        {
+            "id": 2,
+            "title": "Webpack | Babel, Expressjs y Webpack-dev-middleware", 
+            "description": "Este vídeo es un tutorial de Como configurar Webpack, el module bundler o empaquetador de modulos, usandolo como un middleware de express.js, el framework de node.js, complemtamente desde cero, y paso a paso, ademas para probarlo se hace uso de jquery.",
+            "video": "https://www.youtube.com/embed/oFtwdCYfEjw"
+        }, 
+        {
+            "id": 3,
+            "title": "Configurando React, Webpack y Babel Paso a paso", 
+            "description": "¡Gracias a Kite por patrocinar esta sección del vídeo! Kite es un asistente de autocompletado gratuito con tecnología de IA que te ayudará a codificar de forma más rápida e inteligente:",
+            "video": "https://www.youtube.com/embed/jyCP2_YXDNY"
+        }, 
+        {
+            "id": 4,
+            "title": "¿Que es Bower y porque es reemplazado por Webpack", 
+            "description": "En este vídeo conoceremos de que se trata esta herramienta de javascript y Node.js, que tiene por objetivo la gestion de dependencias del FrontEnd, y porque en el desarrollo web actual es reemplaza por Webpack y yarn.",
+            "video": "https://www.youtube.com/embed/Lu2du6qzZeg"
+        }, 
+        {
+            "id": 5,
+            "title": "React.js | ConfiguraTu Proyecto con React.js, Webpack, Node.js, y Express", 
+            "description": "¡Gracias a Kite por patrocinar esta sección del vídeo! Kite es un asistente de autocompletado gratuito con tecnología de IA que te ayudará a codificar de forma más rápida e inteligente:",
+            "video": "https://www.youtube.com/embed/1iAqFwTv4Ms"
+        }, 
+        {
+            "id": 6,
+            "title": "Webpack 4, Curso Práctico", 
+            "description": "Webpack 4 es un empaquetador de módulos, muy utilizado en archivos del Frontend y necesario en todos los frameworks de Javascript como React, Angular, y Vue.js y otros desarrollos de Javascript en el Frontend.",
+            "video": "https://www.youtube.com/embed/vF2emKbaP4M"
+        }
+        ],
+    "title": "Webpack Curso completo desde cero",
+    "category": "Backend",
+    "description": "Webpack | Curso Practico Completo Rápido, Desde Cero",
+    "github": "https://github.com/Fazt",
+    "documentation": "https://webpack.js.org/",
+    "createdForUser": false
+},
+{
+    "id": 19,
+    "autor" : "freecodecamp espanol ",
+    "image": "https://i.ytimg.com/vi/mBYSUUnMt9M/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBleToy1kGxSUG9vd7pk51W4SA2Yg",
+    "images": [{
+        "id": 1,
+        "title": "Aprende Git y GitHub - Curso desde Cero", 
+        "video": "https://www.youtube.com/embed/mBYSUUnMt9M"
+    }],
+    "title": "Aprende Git y GitHub - Curso desde Cero",
+    "category": "Others",
+    "description": "El curso explica los conceptos esenciales de Git y GitHub que necesitas para trabajar en tus proyectos personales y profesionales, incluyendo commits, ramas, pull requests, issues, conflictos, merge, forks y muchos más. ",
+    "github": "https://github.com/freecodecamp",
+    "documentation": "https://docs.github.com/es",
+    "createdForUser": false
+},
+{
+    "id": 20,
+    "autor" : "Fazt Code",
+    "image": "https://i.ytimg.com/vi/BhvLIzVL8_o/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAFcQ9QXxIsqBBtUebhMYsebVtk6g",
+    "images": [{
+        "id": 1,
+        "title": "Nodejs Curso Desde Cero, para principiantes", 
+        "video": "https://www.youtube.com/embed/BhvLIzVL8_o"
+    }],
+    "title": "Nodejs Curso Desde Cero, para principiantes",
+    "category": "Backend",
+    "description": "Este curso de Nodejs, es una introducción practica para Desarrolladores Web, que tienen como objetivo crear aplicaciones Backend, utilizando el lenguaje que ya conocen: Javascript.Nodejs es un entorno de ejecución que permite la creación de aplicaciones de escritorio, aplicaciones de servidor y aplicaciones moviles utilizando Javascript.",
+    "github": "https://github.com/Fazt",
+    "documentation": "https://nodejs.org/es/docs",
+    "createdForUser": false
+},
+{
+    "id": 21,
+    "autor" : "Fazt Code",
+    "image": "https://i.ytimg.com/vi/T1intZyhXDU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAOYYiqn49rZmb0pNdqPNM6zsGARw",
+    "images": [{
+        "id": 1,
+        "title": "Django, Curso de Django para Principiantes", 
+        "video": "https://www.youtube.com/embed/T1intZyhXDU"
+    }],
+    "title": "Django, Curso de Django para Principiantes",
+    "category": "Backend",
+    "description": "En este curso aprenderemos a crear aplicaciones con Django para que a futuro puedas usar este framework como una opcion mas al crear aplicaciones web, usando Python!",
+    "github": "https://github.com/Fazt",
+    "documentation": "https://docs.djangoproject.com/en/4.2/",
+    "createdForUser": false
+},
+{
+    "id": 22,
+    "autor" : "jonmircha",
+    "image": "https://i.ytimg.com/vi/AAtvnv6LNMk/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBjXwGV31gCLo13CPmfLdDJ9v-tkA",
+    "images": [{
+        "id": 1,
+        "title": "Curso Flexbox CSS: Introducción", 
+        "description": "En este video inicio una serie sobre #Flexbox #CSS.",
+        "video": "https://www.youtube.com/embed/AAtvnv6LNMk"
+    }, 
+    {
+        "id": 2,
+        "title": "Curso Flexbox CSS: Conceptos Básicos", 
+        "description": "En este video te explico los conceptos básicos que hay que entender en #Flexbox #CSS.",
+        "video": "https://www.youtube.com/embed/1NBMqQkcZ9Y"
+    }, 
+    {
+        "id": 3,
+        "title": "Curso Flexbox CSS: El flujo de Flexbox ( flex-direction + flex-wrap )", 
+        "description": "En este video te explico como funciona el flujo de #Flexbox #CSS  a través de las propiedades flex-direction y flex-wrap, que en conjunto generan el flex-flow.",
+        "video": "https://www.youtube.com/embed/lnWBQ3dMzhw"
+    }, 
+    {
+        "id": 4,
+        "title": "Curso Flexbox CSS: Alineación del Main Axis ( justify-content )", 
+        "description": "En este video te explico la propiedad justify-content que es la que nos permite alinear el eje principal (main-axis) de una caja #Flexbox #CSS.",
+        "video": "https://www.youtube.com/embed/4eHB6O8d1R0"
+    }, 
+    {
+        "id": 5,
+        "title": "Curso Flexbox CSS: Alineación del Cross Axis ( align-items y align-content )", 
+        "description": "En este video te explico las propiedades align-items y align-content que son las que nos permiten alinear el eje transversal (cross-axis) de una caja #Flexbox #CSS.",
+        "video": "https://www.youtube.com/embed/ELP5l8IVSJo"
+    }, 
+    {
+        "id": 6,
+        "title": "Curso Flexbox CSS: Factor de Crecimiento ( flex-grow )", 
+        "description": "En este video te explico la propiedad flex-grow que es el factor de crecimiento de los elementos hijos de una caja #Flexbox #CSS.",
+        "video": "https://www.youtube.com/embed/Ib9cYYBNQ10"
+    },
+    {
+        "id": 7,
+        "title": "Curso Flexbox CSS: Factor de Reducción ( flex-shrink )", 
+        "description": "En este video te explico la propiedad flex-shrink que es el factor de reducción de los elementos hijos de una caja #Flexbox #CSS.",
+        "video": "https://www.youtube.com/embed/cN6O13okUww"
+    },
+    {
+        "id": 8,
+        "title": "Curso Flexbox CSS: Tamaño de los hijos flexbox ( flex-basis )", 
+        "description": "En este video te explico la propiedad flex-basis que es el tamaño de los hijos #flex de una caja #Flexbox #CSS. También veremos el #shorthand #flex",
+        "video": "https://www.youtube.com/embed/jst2jcHDAWA"
+    },
+    {
+        "id": 9,
+        "title": "Curso Flexbox CSS: Orden y Alineación de hijos flexbox ( order y align-self )", 
+        "description": "En este video te explico las propiedades order y align-self que controlan el orden y la alineación independiente de cada hijo #flex de una caja #Flexbox #CSS.",
+        "video": "https://www.youtube.com/embed/u-k1kPtOA5o"
+    },
+    {
+        "id": 10,
+        "title": "Curso Flexbox CSS: Maquetación y Responsive Design con Flexbox", 
+        "description": "En este video te explico como hacer maquetación y #ResponsiveDesign con #Flexbox #CSS.",
+        "video": "https://www.youtube.com/embed/KoLOOETh0f4"
+    },
+    {
+        "id": 11,
+        "title": "Curso Flexbox CSS: Casos Prácticos con Flexbox I", 
+        "description": "En este video te enseño algunos casos prácticos que se pueden resolver con #Flexbox #CSS.",
+        "video": "https://www.youtube.com/embed/9TcStLE3qzI"
+    },
+    {
+        "id": 12,
+        "title": "Curso Flexbox CSS: Casos Prácticos con Flexbox II", 
+        "description": "En este video te enseño algunos casos prácticos que se pueden resolver con #Flexbox #CSS.",
+        "video": "https://www.youtube.com/embed/po9V3IoxbJc"
+    },
+    {
+        "id": 13,
+        "title": "Curso Flexbox CSS: Bootstrap y Flexbox", 
+        "description": "En este video te enseño a sacar el máximo provecho a todas las utilidades que trae #Bootstrap de #Flexbox #CSS. Con este video terminamos la serie.",
+        "video": "https://www.youtube.com/embed/z11iV2JKHVc"
+    }],
+    "title": "Curso Flexbox CSS",
+    "category": "Frontend",
+    "description": "Curso de Flex Box CSS desde cero. Explicado al detalle.",
+    "github": "https://github.com/jonmircha",
+    "documentation": "https://css-tricks.com/snippets/css/a-guide-to-flexbox/",
+    "createdForUser": false
+},
+{
+    "id": 23,
+    "autor" : "jonmircha",
+    "image": "https://i.ytimg.com/vi/gCox2CqYvto/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA9m_e-W45khfWAbHAtOBUA4LUJaA",
+    "images": [{
+        "id": 1,
+        "title": "Curso Grid CSS: Introducción y Conceptos Básicos", 
+        "description": "En este video comenzamos el curso de #GridCSS  explicando los conceptos básicos y su relación con #FlexboxCSS!.",
+        "video": "https://www.youtube.com/embed/gCox2CqYvto"
+    },
+    {
+        "id": 2,
+        "title": "Curso Grid CSS: Grid Explícita", 
+        "description": "En este video del curso de #GridCSS te explico qué es y cómo crear una grid explícita, además revisamos los conceptos de la unidad fracción y la función repeat.",
+        "video": "https://www.youtube.com/embed/Wz8cP6Kykuw"
+    },
+    {
+        "id": 3,
+        "title": "Curso Grid CSS: Posicionamiento con Grid Lines", 
+        "description": "En este video del curso de #GridCSS te explico como posicionar celdas con #GridLines.",
+        "video": "https://www.youtube.com/embed/glwwN1rRs8I"
+    },
+    {
+        "id": 4,
+        "title": "Curso Grid CSS: Posicionamiento con nombres de Grid Lines", 
+        "description": "En este video del curso de #GridCSS te explico como posicionar celdas con nombres de #GridLines.",
+        "video": "https://www.youtube.com/embed/mnHjLoGNCns"
+    },
+    {
+        "id": 5,
+        "title": "Curso Grid CSS: Posicionamiento con Grid Areas ", 
+        "description": "En este video del curso de #GridCSS te explico como posicionar celdas con #GridAreas.",
+        "video": "https://www.youtube.com/embed/eUDJVB4e-Bw"
+    },
+    {
+        "id": 6,
+        "title": "Curso Grid CSS: Grid Implícita. Grids de bloque y de línea", 
+        "description": "En este video del curso de #GridCSS te explico qué es y cómo se crea una Grid Implícita. Además revisamos la diferencia entre Grids de bloque y de línea.",
+        "video": "https://www.youtube.com/embed/x63kKPlnLO0"
+    },
+    {
+        "id": 7,
+        "title": "Curso Grid CSS: Flujo de la Grid (Grid Flow)", 
+        "description": "En este video del curso de #GridCSS te explico qué es y cómo funciona el flujo de la Grid (#GridFlow).",
+        "video": "https://www.youtube.com/embed/GTGOsiDGKwA"
+    },
+    {
+        "id": 8,
+        "title": "Curso Grid CSS: Flujo Denso de la Grid (Grid Flow Dense)", 
+        "description": "En este video del curso de #GridCSS te explico qué es y cómo funciona el flujo denso de la Grid (#GridFlowDense).",
+        "video": "https://www.youtube.com/embed/iRkPfACKk6E"
+    },
+    {
+        "id": 9,
+        "title": "Curso Grid CSS: Grid Layers: Celdas en capas (superposición)", 
+        "description": "En este video del curso de #GridCSS te explico cómo poner celdas superpuestas en capas dentro de la Grid (#GridLayers).",
+        "video": "https://www.youtube.com/embed/bCULAgZNT_Y"
+    },
+    {
+        "id": 10,
+        "title": "Curso Grid CSS: Orden y Alineación de Grid Items", 
+        "description": "En este video del curso de #GridCSS te explico cómo ordenar y alinear las celdas (#GridItems) de una Grid.",
+        "video": "https://www.youtube.com/embed/I3UqxC-zlHY"
+    },
+    {
+        "id": 11,
+        "title": "Curso Grid CSS: Alineación de Grid Tracks", 
+        "description": "En este video del curso de #GridCSS te explico cómo alinear las filas y columnas (#GridTracks) de una Grid.",
+        "video": "https://www.youtube.com/embed/IQzW7QnuYvU"
+    },
+    {
+        "id": 12,
+        "title": "Curso Grid CSS: Tamaños Máximos y Mínimos de Grid Tracks", 
+        "description": "En este video del curso de #GridCSS te explico cómo establecer tamaños máximos y mínimos de filas y columnas (#GridTracks) de una Grid.",
+        "video": "https://www.youtube.com/embed/m3EaKtYe6Gg"
+    },
+    {
+        "id": 13,
+        "title": "Curso Grid CSS: Grids con Patrones Repetitivos", 
+        "description": "En este video del curso de #GridCSS te explico cómo crear Grids con patrones repetitivos haciendo uso de la función repeat.",
+        "video": "https://www.youtube.com/embed/0W0gjpXqbdo"
+    },
+    {
+        "id": 14,
+        "title": "Curso Grid CSS: Grids Dinámicas. Responsive sin Media Queries", 
+        "description": "En este video del curso de #GridCSS te explico cómo crear Grids Dinámicas y  #ResponsiveDesign sin usar #MediaQueries.",
+        "video": "https://www.youtube.com/embed/inVlqjPNmD8"
+    },
+    {
+        "id": 15,
+        "title": "Curso Grid CSS: Grids Anidadas & Subgrids", 
+        "description": "En este video del curso de #GridCSS te explico cómo crear Grids Anidadas y #Subgrids.",
+        "video": "https://www.youtube.com/embed/vnK7MMSXGVI"
+    },
+    {
+        "id": 16,
+        "title": "Curso Grid CSS: Responsive Layout con Grid Lines", 
+        "description": "En este video del curso de #GridCSS diseñamos un #ResponsiveLayout con la técnica de #GridLines.",
+        "video": "https://www.youtube.com/embed/It-jSvYDW8M"
+    },
+    {
+        "id": 17,
+        "title": "Curso Grid CSS: Responsive Layout con Grid Areas", 
+        "description": "En este video del curso de #GridCSS diseñamos un #ResponsiveLayout con la técnica de #GridAreas. Con esta clase terminamos el curso.",
+        "video": "https://www.youtube.com/embed/g6a2zmEsTZE"
+    }],
+    "title": "Curso Grid CSS",
+    "category": "Frontend",
+    "description": "Curso de CSS Grid desde cero. Explicado al detalle.",
+    "github": "https://github.com/jonmircha",
+    "documentation": "https://css-tricks.com/snippets/css/complete-guide-grid/",
+    "createdForUser": false
+},
+{
+    "id": 24,
+    "autor" : "Victor Robles WEB",
+    "image": "https://i.ytimg.com/vi/HKFDsC_rMpU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCmw1po0Kn9YIwYzWn1SO_MB5lDXw",
+    "images": [{
+        "id": 1,
+        "title": "Aprende PHP 8 en 30 Minutos 📘", 
+        "video": "https://www.youtube.com/embed/HKFDsC_rMpU"
+    }],
+    "title": "PHP 8",
+    "category": "Backend",
+    "description": "Curso de PHP desde cero. Explicado al detalle.",
+    "github": "",
+    "documentation": "https://www.php.net/docs.php",
+    "createdForUser": false
+},
+{
+    "id": 25,
+    "autor" : "jonmircha",
+    "image": "https://i.ytimg.com/vi/HXE169-n5pM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC_XM-EF_bJH-Ye27UQArQUA9dmPw",
+    "images": [{
+        "id": 1,
+        "title": "Curso Diseño de Bases de Datos - jonmircha", 
+        "video": "https://www.youtube.com/embed/HXE169-n5pM"
+    }],
+    "title": "Diseño de Base de Datos",
+    "category": "Backend",
+    "description": "En este curso te enseño a diseñar y modelar conceptualmente Bases de Datos.",
+    "github": "https://github.com/jonmircha",
+    "documentation": "https://blog.mdcloud.es/que-es-el-diseno-de-base-de-datos-y-como-planificarlo/",
+    "createdForUser": false
+},
+{
+    "id": 26,
+    "autor" : "MitoCode",
+    "image": "https://i.ytimg.com/vi/6xxVCk4d4E0/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJ2MUKA4DxvIIqJWpAAF4onyF9kQ",
+    "images": [{
+        "id": 1,
+        "title": "Curso MongoDB - 12 MongoDB Atlas", 
+        "video": "https://www.youtube.com/embed/6xxVCk4d4E0"
+    }],
+    "title": "Curso MongoDB - 12 MongoDB Atlas",
+    "category": "Others",
+    "description": "Ahora aprenderemos a crear una base de datos en la nube usando mongo atlas",
+    "github": "",
+    "documentation": "https://www.mongodb.com/cloud/atlas/register",
+    "createdForUser": false
+},
+{
+    "id": 27,
+    "autor" : "midudev",
+    "image": "https://i.ytimg.com/vi/iPNt12IdbCU/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBuvZxjObuwgzBEC8eRhjGYrjAUTg",
+    "images": [{
+        "id": 1,
+        "title": "📚 Tutorial de React Router 6 desde cero", 
+        "video": "https://www.youtube.com/embed/iPNt12IdbCU"
+    }],
+    "title": "Tutorial de React Router 6 desde cero",
+    "category": "Others",
+    "description": "React Router es la biblioteca más famosa de enrutado en React. Con la versión 6 hay muchas cosas que han cambiado. ¡Las revisamos y lo explicamos desde cero!",
+    "github": "https://github.com/midudev",
+    "documentation": "https://reactrouter.com/en/main",
+    "createdForUser": false
+},
+{
+    "id": 28,
+    "autor" : "Fazt Code",
+    "image": "https://i.ytimg.com/vi/lVqHiTCIRQg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDwtGnsgEH2gfN4rETpFAa77pXxxQ",
+    "images": [{
+        "id": 1,
+        "title": "Javascript para Aprender React", 
+        "video": "https://www.youtube.com/embed/lVqHiTCIRQg"
+    }],
+    "title": "Javascript para Aprender React",
+    "category": "Others",
+    "description": "Este es un curso de conceptos fundamentales de Javascript que debes conocer para poder aprender React, la biblioteca de Javascript para crear interfaces de Usuario en la web. En este curso aprenderás las bases de las funciones, objetos, arreglos, ecmascript modules, spread operator, arrow functions, string literals, manipulación basica del DOM (Document Object Model), fetch, promesas y async/await.",
+    "github": "https://github.com/Fazt",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Web/JavaScript",
+    "createdForUser": false
+},
+{
+    "id": 29,
+    "autor" : "jonmircha",
+    "image": "https://i.ytimg.com/vi/-oK6zL01fNM/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCgr4mAnc3n9OmrFCQSyBB6UBh1Ug",
+    "images": [{
+        "id": 1,
+        "title": "Curso HTML & CSS ( 1 / 5 ): Fundamentos HTML - jonmircha", 
+        "video": "https://www.youtube.com/embed/-oK6zL01fNM",
+        "description": "En este curso te enseño los fundamentos de HTML, el lenguaje de marcado que define el contenido en la web."
+    },
+    {
+        "id": 2,
+        "title": "Curso HTML & CSS ( 2 / 5 ): Fundamentos CSS - jonmircha", 
+        "video": "https://www.youtube.com/embed/K3xmRF8ab1o",
+        "description": "En este curso te enseño los fundamentos de CSS, el lenguaje que define la presentación del contenido en la web."
+    },
+    {
+        "id": 3,
+        "title": "Curso HTML & CSS ( 3 / 5 ): Unidades y Estilos CSS - jonmircha", 
+        "video": "https://www.youtube.com/embed/p_lT7AgpEMU",
+        "description": "En este curso te enseño las diferentes unidades de medida existentes en CSS y diferentes estilos que podemos aplicar a las etiquetas HTML."
+    },
+    {
+        "id": 4,
+        "title": "Curso HTML & CSS ( 4 / 5 ): Efectos Visuales y Movimiento en CSS - jonmircha", 
+        "video": "https://www.youtube.com/embed/mVhoGXkDbMw",
+        "description": "En este curso te enseño a crear efectos visuales estáticos y con movimiento en CSS."
+    },
+    {
+        "id": 5,
+        "title": "Curso HTML & CSS ( 5 / 5 ): Responsive Design y Arquitectura CSS - jonmircha", 
+        "video": "https://www.youtube.com/embed/udGrXWeJp1Y",
+        "description": "En este curso te enseño sobre Responsive Design y Arquitectura CSS."
+    }
+],
+    "title": "Curso HTML & CSS Fundamentos HTML - jonmircha",
+    "category": "Frontend",
+    "description": "En este curso te enseño los fundamentos de HTML, el lenguaje de marcado que define el contenido en la web.",
+    "github": "https://github.com/jonmircha",
+    "documentation": "https://developer.mozilla.org/en-US/docs/Glossary/HTML5",
+    "createdForUser": false
+},
+{
+    "id": 30,
+    "autor" : "Victor Robles WEB",
+    "image": "https://i.ytimg.com/vi/wGxDfSWC4Ww/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBqAmgtMe2b58hZVdHj-PdDL7tBzA",
+    "images": [{
+        "id": 1,
+        "title": "Aprende React en 15 Minutos 📘", 
+        "video": "https://www.youtube.com/embed/wGxDfSWC4Ww"
+    }],
+    "title": "Aprende React en 15 Minutos 📘",
+    "category": "Frontend",
+    "description": "Aprende lo fundamental de la programación y lo más básico de React. Uno de los frameworks para JavaScript más usados y demandados actualmente que nos permite desarrollar aplicaciones web en el frontend (SPA, single page applications). Te enseñaré como empezar en ReactJS y como trabajar con variables, jsx, vistas, componentes, estados, hooks, estructuras de control, listas y mucho más. Todo en 15 minutos, desde cero y paso a paso.",
+    "github": "",
+    "documentation": "https://victorroblesweb.es/master-react",
+    "createdForUser": false
+},
+{
+    "id": 31,
+    "autor" : "atl.academy",
+    "image": "https://i.ytimg.com/vi/TqiysLEBZo4/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCywJ1iKz-ipxcRRTSHT9xcgFUb4Q",
+    "images": [{
+        "id": 1,
+        "title": "Curso Completo de C# para Principiantes (2021) 🚀", 
+        "video": "https://www.youtube.com/embed/TqiysLEBZo4"
+    }],
+    "title": "Curso Completo de C# para Principiantes (2021) 🚀",
+    "category": "Others",
+    "description": "Este curso online es la mejor forma de aprender en serio a programar con C#.",
+    "github": "https://github.com/lucasmoy-dev/Curso-de-C-Sharp",
+    "documentation": "https://learn.microsoft.com/en-us/dotnet/csharp/",
+    "createdForUser": false
+},
+{
+    "id": 32,
+    "autor" : "atl.academy",
+    "image": "https://i.ytimg.com/vi/Z8zAKYLZBqc/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBMAxraAO11CI-U6sM0R0R7ea6taw",
+    "images": [{
+        "id": 1,
+        "title": "Curso Completo de Java para Principiantes (2021)", 
+        "video": "https://www.youtube.com/embed/TqiysLEBZo4"
+    }],
+    "title": "Curso Completo de Java para Principiantes (2021)",
+    "category": "Backend",
+    "description": "¡Convertirte en un experto en JAVA con este curso!",
+    "github": "https://github.com/lucasmoy-dev/Curso-de-C-Sharp",
+    "documentation": "https://docs.oracle.com/en/java/",
+    "createdForUser": false
+},
+{
+    "id": 33,
+    "autor" : "atl.academy",
+    "image": "https://i.ytimg.com/vi/0OTpkPo__TY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAWjp5hwxJTmfaGqaHa7ZdQbjR3fw",
+    "images": [{
+        "id": 1,
+        "title": "Curso de Programación en C (Desde 0 actualizado a 2023)", 
+        "video": "https://www.youtube.com/embed/0OTpkPo__TY"
+    }],
+    "title": "Curso de Programación en C (Desde 0 actualizado a 2023)",
+    "category": "Others",
+    "description": "¡Convertirte en un experto en C con este curso!",
+    "github": "https://github.com/lucasmoy-dev/Curso-de-C-Sharp",
+    "documentation": "https://devdocs.io/c/",
+    "createdForUser": false
+},
+{
+    "id": 34,
+    "autor" : "atl.academy",
+    "image": "https://i.ytimg.com/vi/0OTpkPo__TY/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAWjp5hwxJTmfaGqaHa7ZdQbjR3fw",
+    "images": [{
+        "id": 1,
+        "title": "Curso de Programación en C (Desde 0 actualizado a 2023)", 
+        "video": "https://www.youtube.com/embed/0OTpkPo__TY"
+    }],
+    "title": "Curso de Programación en C (Desde 0 actualizado a 2023)",
+    "category": "Others",
+    "description": "¡Convertirte en un experto en C con este curso!",
+    "github": "https://github.com/lucasmoy-dev/Curso-de-C-Sharp",
+    "documentation": "https://devdocs.io/c/",
+    "createdForUser": false
+},
+{
+    "id": 35,
+    "autor" : "CodigoFacilito",
+    "image": "https://i.ytimg.com/vi/wSNTT8MLI90/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA7tKyAok0xhZ3dldn6UL57C_i4WA",
+    "images": [{
+        "id": 1,
+        "title": "Curso completo de introducción a Ruby on Rails.", 
+        "video": "https://www.youtube.com/embed/wSNTT8MLI90"
+    }],
+    "title": "Curso completo de introducción a Ruby on Rails.",
+    "category": "Others",
+    "description": "Código Facilito es una de las plataformas de aprendizaje online de programación más grandes de habla hispana. Desde el 2010 formamos programadores en toda América Latina y España enseñando. HTML, JavaScript, React, Python, Rails, Go y mucho más.",
+    "github": "",
+    "documentation": "https://www.ruby-lang.org/en/documentation/",
+    "createdForUser": false
+},
+{
+    "id": 36,
+    "autor" : "Matias Porta",
+    "image": "https://i.ytimg.com/vi/le8G-10DCtg/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLA5xuEFjRFX4mKp4xc9aYZUpGkX6A",
+    "images": [{
+        "id": 1,
+        "title": "Tutorial WORDPRESS 2022 desde CERO (Parte 01)", 
+        "video": "https://www.youtube.com/embed/le8G-10DCtg"
+    }],
+    "title": "Tutorial WORDPRESS 2022 desde CERO (Parte 01)",
+    "category": "Others",
+    "description": "En el tutorial te voy a enseñar todas las herramientas que te facilita Wordpress para crear una web profesional sin saber NADA de programación y sin tener conocimiento técnicos previos.",
+    "github": "",
+    "documentation": "https://es-ar.wordpress.org/",
+    "createdForUser": false
+},
+{
+    "id": 37,
+    "autor" : "EDteam",
+    "image": "https://i.ytimg.com/vi/CjGlzfC61EI/hq720.jpg?sqp=-oaymwEcCOgCEMoBSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB84zwNMn3yiK1KwQEsyZglisQE3w",
+    "images": [{
+        "id": 1,
+        "title": "¿Cómo crear tu portafolio para conseguir trabajo?", 
+        "video": "https://www.youtube.com/embed/CjGlzfC61EI"
+    }],
+    "title": "¿Cómo crear tu portafolio para conseguir trabajo?",
+    "category": "Others",
+    "description": "¡De nada sirve lo que sabes si no haces nada con ello! No valorarán tu trabajo y tu educación solo por mostrar tu CV junto a una colección de certificados. Debes demostrar que eres capaz de realizar proyectos reales con todo ese valioso conocimiento. ¿Y cómo lo haces? Con un portafolio poderoso que muestre tu trabajo ¡Descubre cómo hacerlo en este video!",
+    "github": "",
+    "documentation": "",
+    "createdForUser": false
+}
+]

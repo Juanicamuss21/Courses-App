@@ -1,0 +1,203 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    height: 100%;
+    background: linear-gradient(220.55deg, #C5EDF5 0%, #4A879A 100%);
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    width: 70%;
+    margin: 4rem 0;
+    background: #03001C;
+    border-radius: 10px; 
+    padding-top: 1.5rem;
+    color: #fff;
+    box-shadow: 1px 2px 13px -1px #01163d;
+} 
+
+.inputs-images{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem; 
+    width: 100%;
+}
+
+.inputs-images__children{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 30%;
+}
+
+.inputs-images .field{
+    width: 100%;
+}
+
+.input-checkbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin-top: 2rem;
+}
+
+.input-checkbox__children{
+    display: flex;
+    justify-content: center;
+    gap: 4rem;
+}
+
+.label-checkbox{
+    display: flex; 
+}
+
+.input-checkbox__children input{
+    cursor: pointer;  
+}
+
+.btn-form button{
+    padding: 0.60rem 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    background: transparent;
+    /* background: linear-gradient(90deg, #1877F2 0%, #00DDD7 100%); */
+    border: 3px solid #00DDD7;
+    font-size: 1rem;
+    margin: 3rem;
+    font-weight: 300;
+    color: #fff;
+}
+
+.btn-form button:hover{
+    background: linear-gradient(90deg, #1877F2 0%, #00DDD7 100%);
+    /* border: 3px solid #00DDD7; */
+    box-shadow: 0 0 7px 0 #00DDD7;
+}
+
+.errors{
+    color: #FF0000;
+}
+
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  appearance: none;
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+.field{
+    position: relative;
+    height: 52px;
+    width: 40%;
+    color: white;
+    overflow: hidden;
+}
+
+.field input, textarea{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    color: white;
+    outline: 0;
+    background-color: inherit;
+    padding-top: 25px;
+    border: none;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.field .label-wrapper{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    bottom: 0;
+    background-color: inherit;
+    left: 0;
+    pointer-events: none;
+    border-bottom: 1px solid white;
+}
+
+.field .label-wrapper::after{
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    border-bottom: 3px solid #4db5ff; 
+    /* border-bottom: 3px solid #fb32a4;  */
+    left: 0;
+    bottom: -1px;
+    transform: translateX(-100%);
+    transition: transform 0.2s ease;
+}
+
+.field .label-text{
+    position: absolute;
+    bottom: 5px;
+    left: 0px;
+    transition: all 0.2s ease;
+}
+
+.field input:focus + .label-wrapper .label-text,
+.field input:valid + .label-wrapper .label-text{
+   font-size: 12px;
+   color: #4db5ff;
+   /* color: #fb32a4; */
+   transform: translateY(-150%);
+}
+
+.field input:focus + .label-wrapper::after,
+.field input:valid + .label-wrapper::after{
+   transform: translatex(0%);
+}
+
+.field textarea:focus + .label-wrapper .label-text,
+.field textarea:valid + .label-wrapper .label-text{
+   font-size: 12px;
+   color: #4db5ff;
+   /* color: #fb32a4; */
+   transform: translateY(-150%);
+}
+
+.field textarea:focus + .label-wrapper::after,
+.field textarea:valid + .label-wrapper::after{
+   transform: translatex(0%);
+}
+
+@media (max-width: 1200px) {
+    form{
+        width: 85%;
+    } 
+    .field{
+        width: 60%;
+    }
+  }
+  
+  @media (max-width: 800px) {
+    form{
+        width: 90%;
+    } 
+    .field{
+        width: 70%;
+    }
+  }
+  
+  @media (max-width: 600px) {
+    form{
+        width: 100%;
+    } 
+
+    .field{
+        width: 80%;
+    }
+
+    .input-checkbox__children{
+        gap: 2rem;
+    }
+  }

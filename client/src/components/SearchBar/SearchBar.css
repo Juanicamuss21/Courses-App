@@ -1,0 +1,174 @@
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: -400px;
+    width: 400px;
+    height: 100%;
+    /* background-color: #F1EFDC; */
+    background: #181818;
+    /* background: #0f0f0f; */
+    color: #fff;
+    transition: left 0.3s ease-in-out;
+    overflow-y: auto;
+    z-index: 1;
+    border-right: 2px solid #fff;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+
+  .title-button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    outline: 2px solid #fff;
+  }
+
+  .title-button button{
+    border: none;
+    color: #fff;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  .title-check{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+  }
+
+  .no-active{
+    text-decoration: none;
+    color: #fff;
+    
+  }
+
+  .title-searchbar{
+    font-size: 16px;
+  }
+
+  .no-active :hover{
+    color: #3DADF2;
+  }
+
+  .active{
+    color: #3DADF2;
+  }
+
+  .not-navlink{
+    color: #3DADF2;
+    cursor: pointer;
+  }
+
+  .icon-close{
+    font-size: 1.5rem;
+    position: absolute;
+    top: 5px;
+    right: 6px;
+    
+  }
+
+  .icon-close:hover{
+    transform: scale(1.2);
+  }
+
+  .icon-nav{
+    width: max-content;
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    color: #fff;
+
+    position: relative;
+    top: 3.8rem;
+    left: 7.5rem;
+    z-index: 1;
+    height: 50px;
+}
+  
+  .icon{
+    border: 2px solid #fff;
+    border-radius: 4px;
+    padding: 4px;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+.input-check{
+  cursor: pointer;
+  /* width: 18px; */
+}
+
+@media (max-width: 1200px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -370px;
+    width: 370px;
+    
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+
+  .icon-nav{ 
+    position: relative;
+    top: 3.5rem;
+    left: 5rem;
+    z-index: 1;
+    height: 50px;
+}
+
+}
+
+/* Para pantallas menores a 800px */
+@media (max-width: 800px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -350px;
+    width: 350px;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+
+  .title-searchbar{
+    font-size: 14px;
+  }
+
+  .icon-nav{ 
+    left: 3rem;
+}
+}
+
+/* Para pantallas menores a 600px */
+@media (max-width: 600px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -250px;
+    width: 250px;
+  }
+  
+  .sidebar.open {
+    left: 0;
+  }
+
+  .title-searchbar{
+    font-size: 13px;
+  }
+
+  .icon-nav{ 
+    top: 3.2rem;
+    left: 1.5rem;
+}
+
+}

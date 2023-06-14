@@ -1,0 +1,28 @@
+.courses-found{
+    margin-top: 2rem;
+}
+
+.courses-found-child{
+    display: flex;
+    gap: 1rem;
+    margin: 1rem 2rem;
+    padding-left: 6px;
+    outline: 2px solid gray;
+}
+
+@media (max-width: 1200px) {
+    
+}
+  
+  /* Para pantallas menores a 800px */
+  @media (max-width: 800px) {
+    
+}
+  
+  /* Para pantallas menores a 600px */
+  @media (max-width: 600px) {
+    .courses-found-child{
+        margin: 1rem 1rem;
+        font-size: 12px
+    }
+}       

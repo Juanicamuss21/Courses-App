@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+.div-landing{
+    height: 100vh;
+    padding-top: 1rem;
+    background: linear-gradient(90deg, #1877F2 0%, #00DDD7 100%);
+    /* background: #072227;  */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Quicksand', sans-serif;
+    /* font-weight: 600; */
+    color: #fff;
+}
+
+.presentation{
+    display: flex;
+    flex-direction: column;
+    outline: 2px solid #fff;
+    width: 60%;
+    padding: 2rem;
+    margin-top: 5rem;
+    border-radius: 6px;
+    /* box-shadow: var(--shadow-elevation-high); */
+    background: rgba(0, 0, 0, 0.4);
+}
+
+.title-landing{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3.5rem;
+    /* outline: 3px solid red; */
+    margin-top: -15px;
+
+}
+
+.parrafo-landing{
+    text-indent: 10px;
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.parrafo-landing p{
+    /* text-indent: 20px; */
+    /* margin-bottom: -10px; */
+    /* outline: 3px solid red;   */
+
+}
+
+
+.btns{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.btns button{
+    padding: 0.75rem 1.2rem;
+    cursor: pointer;
+    border-radius: 20px;
+    width: 7rem;
+    background: linear-gradient(220.55deg, #EAEAEA 0%, #8B8B8B 100%);
+    border: none;
+    outline: 2px solid #DFD1C5;
+    /* box-shadow: 0px 4px 4px #fff;   */
+    font-size: 1rem;
+}
+
+.btns button:is(:hover, :focus){
+    outline-offset: 3px;
+    transition:  all 100ms ease;
+}
+
+@media (max-width: 1200px) {
+    /* .div-landing {
+      flex-direction: column;
+      align-items: center;
+    } */
+
+    .presentation {
+      width: 80%;
+    }
+}
+
+@media (max-width: 800px) {
+  .div-landing{
+    justify-content: center;
+    align-items: flex-start;
+
+}
+    .div-landing {
+      padding: 0.5rem;
+    }
+
+    .presentation {
+      width: 90%;
+      /* height: 400px; */
+      padding: 1.5rem;
+      font-size: 0.9rem;
+    }
+
+    .btns{
+
+      /* margin-bottom: 2rem; */
+
+  }
+}
+
+@media (max-width: 600px) {
+    .presentation {
+      width: 90%;
+      padding-top: 2rem;
+    }
+
+    .parrafo-landing {
+      font-size: 0.7rem;
+      margin-bottom: 1rem;
+    }
+
+    .parrafo-landing p {
+      text-indent: 10px;
+      margin-bottom: 0;
+    }
+
+    .btns button{
+      padding: 0.75rem 1.2rem;
+      width: 6rem;
+      font-size: 14px;
+    }
+}
