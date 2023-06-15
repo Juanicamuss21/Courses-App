@@ -6,7 +6,7 @@ import VideoCourse from './components/VideoCourse/VideoCourse';
 import Landing from './components/Landing/Landing';
 import FormCourse from './components/FormCourse/FormCourse';
 import axios from 'axios';
-axios.defaults.baseURL = 'http://localhost:3001/';
+axios.defaults.baseURL = 'https://courses-app-production-d242.up.railway.app/';
 
 function App() {
 
