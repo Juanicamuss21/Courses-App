@@ -3,7 +3,6 @@ import {toast} from "react-hot-toast";
 
 export function getAllVideos(){
     return function(dispatch){
-        console.log(axios)
         axios.get("/videos")
         .then((res) => res.data)
         .then((res) => {

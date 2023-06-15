@@ -6,7 +6,6 @@ import VideoCourse from './components/VideoCourse/VideoCourse';
 import Landing from './components/Landing/Landing';
 import FormCourse from './components/FormCourse/FormCourse';
 import axios from 'axios';
-
 axios.defaults.baseURL = 'http://localhost:3001/';
 
 function App() {
@@ -21,7 +20,7 @@ function App() {
       <Route exact path="/" element={<Landing />} /> 
       <Route exact path="/home" element={<Home />} />  
       <Route path="/home/videos/:id" element={<Detail />} />
-      <Route path="/home/videos/:id/:idVideo" element={<VideoCourse />} />
+      <Route path="/home/videos/:id/:idVideo" element={<VideoCourse/>}/>
       <Route path="/home/form" element={<FormCourse />} />
 
     </Routes>
