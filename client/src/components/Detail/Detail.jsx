@@ -1,40 +1,36 @@
-import React from 'react'
-import { useParams } from 'react-router-dom'
-import { useEffect } from 'react'
-import {useDispatch, useSelector} from "react-redux"
-import * as actions from "../../redux/actions"
-import "./Detail.css"
-import SearchBar from '../SearchBar/SearchBar';
-import {AiFillGithub, AiFillYoutube} from "react-icons/ai"
-import {BsFillPatchCheckFill} from "react-icons/bs"
-import {VscChromeClose} from "react-icons/vsc"
-import { NavLink } from 'react-router-dom'
+import React, { useEffect } from 'react'
+import { useParams, NavLink } from 'react-router-dom'
+import { useDispatch, useSelector } from 'react-redux'
+import * as actions from '../../redux/actions'
+import './Detail.css'
+import SearchBar from '../SearchBar/SearchBar'
+import { AiFillGithub, AiFillYoutube } from 'react-icons/ai'
+import { BsFillPatchCheckFill } from 'react-icons/bs'
+import { VscChromeClose } from 'react-icons/vsc'
 // import imgYoutube from "../../assets/icono-youtube.png"
 
 const Detail = () => {
+  const dispatch = useDispatch()
 
-    const dispatch = useDispatch()
+  const { id } = useParams()
 
-    const {id} = useParams()
-    
-    useEffect(() => {
-      window.scrollTo(0,0)
-    },[])
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
 
-    
-    useEffect(() => {
-      dispatch(actions.detailNull())     
-      dispatch(actions.getDetail(id))
-    }, [dispatch,id])
-    
-    const myVideo = useSelector(state => state.detail)
-    
-    const firstVideo = myVideo && myVideo.images && JSON.parse(myVideo.images)[0];
+  useEffect(() => {
+    dispatch(actions.detailNull())
+    dispatch(actions.getDetail(id))
+  }, [dispatch, id])
+
+  const myVideo = useSelector(state => state.detail)
+
+  const firstVideo = myVideo && myVideo.images && JSON.parse(myVideo.images)[0]
 
   return (
-    
+
     <section className='section-detail'>
-    
+
     <SearchBar myVideo={myVideo}/>
 
     <div className='div-detail'>
@@ -45,18 +41,17 @@ const Detail = () => {
 
       <div className='iframe-title'>
         {
-          firstVideo ?
-          <div className='div-video'>
-          <div className='div-video-iframe'>
-          <iframe src={firstVideo.video} title='nose' frameBorder="0" allowFullScreen></iframe>
-          </div>
-          <div>
-          <h3>{firstVideo.title}</h3>
-          </div>
-          </div>
-          :
-          <h3 className='cargando'>Cargando...</h3>
-        }           
+          firstVideo
+            ? <div className='div-video'>
+                <div className='div-video-iframe'>
+                   <iframe src={firstVideo.video} title='nose' frameBorder="0" allowFullScreen></iframe>
+                </div>
+                <div>
+                  <h3>{firstVideo.title}</h3>
+                </div>
+              </div>
+            : <h3 className='cargando'>Cargando...</h3>
+        }
       </div>
 
       <div className='contenido'>
@@ -76,21 +71,21 @@ const Detail = () => {
         <div className='icons'>
         <div className='div-youtube'>
 
-        <a href={`https://www.youtube.com/@${myVideo.autor.replace(/\s+/g, "")}`}  
+        <a href={`https://www.youtube.com/@${myVideo.autor.replace(/\s+/g, '')}`}
         target="_blank" rel='noreferrer'><AiFillYoutube className='icon-youtube'/></a>
-        
+
         </div>
         <div className="div-github">
         <a href={myVideo.github} target="_blank" rel='noreferrer'><AiFillGithub className='icon-github'/></a>
         </div>
         </div>
-        <a href={myVideo.documentation} target="_blank" rel='noreferrer' className='documentation'>Documentation</a>
+        <a href={myVideo.documentation} target="_blank" rel='noreferrer' className='documentation'>Documentación</a>
         </div>
       }
       </div>
 
-    </div> 
-  
+    </div>
+
   </section>
   )
 }

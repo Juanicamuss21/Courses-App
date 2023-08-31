@@ -6,7 +6,7 @@
 //     try{
 //         const item = window.localStorage.getItem(key);
 //         return item ? JSON.parse(item) : initialValue
-            
+
 //         }catch(e){
 //             return initialValue
 //         }
@@ -20,7 +20,6 @@
 //             console.log(error)
 //         }
 //     }
-
 
 //   return (
 //     <div>LocalStorage</div>

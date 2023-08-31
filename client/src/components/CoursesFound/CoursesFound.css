@@ -22,7 +22,7 @@
   /* Para pantallas menores a 600px */
   @media (max-width: 600px) {
     .courses-found-child{
-        margin: 1rem 1rem;
+        margin: 1rem 0.40rem;
         font-size: 12px
     }
 }       

@@ -1,20 +1,19 @@
 .header{
-    /* background: #072227; */
     background: linear-gradient(90deg, #1877F2 0%, #00DDD7 100%);
     box-shadow: 0px 4px 10px 2px rgba(0, 0, 0, 0.25);
 }
 
 .nav{
     display: flex;
-    /* justify-content: space-around;
-    align-items: center; */
+    justify-content: space-around;
+    align-items: flex-end;
 }
 
 .title-nav{
     position: relative;
-    left: 6rem;
+    /* left: 5rem; */
     font-size: 1rem;
-    margin-left: 15px;
+    /* margin-left: 15px; */
     cursor: pointer;
 }
 
@@ -22,48 +21,69 @@
     color: #FFFFFF;
 }
 
-.input-total{
-    position: relative;
-    top: 25px;
-    left: 20rem;
-    margin-right: 7rem;
+.input-total {
+    display: none;
+    margin-bottom: 12px;
+}
+
+.input-total.visible{
+    display: block;
 }
 
 .input{
-    width: 20rem;
-    padding: 5px 0px 5px 5px;
+    width: 20rem;   
+    padding: 7px 0px 7px 8px;
     background: linear-gradient(180deg, rgba(215, 215, 215, 0.6) 0%, rgba(232, 232, 232, 0.6) 0.01%, rgba(255, 255, 255, 0.6) 100%);
     border: 2px solid;
-    border-radius: 10px 0 0 10px;
+    border-radius: 40px 0 0 40px;
     border-color: #FFFFFF rgba(255, 255, 255, 0.6) #FFFFFF #FFFFFF;  
 }
 
 .input:focus{
     outline: none;
     border: 2px solid #999;
+    /* border: 2px solid gray; */
 }
 
 .btn-nav{
-    padding: 5px 8px 6px 8px;
-    border-radius: 0 6px 6px 0;
+    padding: 6px 10px 8px 8px;
+    border-radius: 0 40px 40px 0;
     border: 1px solid;
     border-color: #FFFFFF #FFFFFF #FFFFFF transparent;
     cursor: pointer;
+}
+
+.nav-links {
+    /* position: relative;
+    right: 5rem;     */
+    top: 5px;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.nav-links_child {
+    color: #fff;
+    text-decoration: none;
+} 
+
+.active1 {
+    color: none;
+    /* color: #03001C; */
 }
 
 .menu-user {
     visibility: hidden;
     position: absolute;
     right: 1.4rem;
-    width: 280px;
+    width: 260px;
     height: 260px;
-    border-radius: 2px;
+    border-radius: 5px;
     background: #EAEAEA;
 
     color: #000;
     transition: top 0.3s ease-in-out;
     z-index: 1;
-    outline: 2px solid black;
+    border: 2px solid black;
 }
 
 .menu-user.open {
@@ -84,13 +104,11 @@
 
 .btns-menu{
     display: flex;
-    align-items: flex-end;
     justify-content: center;
     gap: 1rem;
     width: 100%;
-
     position: absolute;
-    bottom: 2rem;
+    bottom: 1rem;
 }
 
 .btns-menu button{
@@ -101,6 +119,8 @@
     background: linear-gradient(90deg, #1877F2 0%, #00DDD7 100%);
     border: 2px solid #111;
     font-size: 15px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 600;
 } 
 
 .btns-menu button:hover{
@@ -108,159 +128,107 @@
     border: 2px solid #00DDD7;
 }
 
-/* .menu-user h3::before {
-    content: '';
-    display: block;
-   
-    border-top: 20px solid transparent;
-    border-right: 20px solid transparent;
-    border-bottom: 20px solid #EAEAEA;;
-    border-left: 20px solid transparent;
-    position: absolute;
-    top: -40px;
-    right: 1.5rem;
-} */
-
-/* .outer-border{
-    outline: 3px solid red;
-} */
-
 .menu-user h3{
     color: #000;
+    text-align: center;
+    margin-bottom: 5px;
+    /* outline: 3px solid red; */
 }
 
 .text-menu{
-    margin-left: 1.8rem;
+    text-align: center;
+    margin-top: 0px;
+    /* outline: 3px solid red; */
 }
 
-.menu-user p{
-    margin-top: -10px;
+.icon-bars {
+    display: none; /* Oculta el icono de FaBars */
 }
 
-.menu-desciption{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.btn-menu{
-    margin-top: 4rem;
-}
-
-@media (max-width: 1200px) {
-    .title-nav {
-      left: 3rem;
-    }
-  
-    .input-total {
-      left: 10rem;
-      margin-right: 2rem;
-    }
-  
-    /* .img-nav {
-      width: 2.5rem;
-    } */
-  
-    /* .menu-user {
-      width: 200px;
-      height: 220px;
-    } */
-  
-    /* .btns-menu button {
-      padding: 0.5rem 0.8rem;
-      font-size: 14px;
-    } */
-  }
-  
-  /* @media (max-width: 800px) {
-    .title-nav {
-      left: 1rem;
-      font-size: 0.9rem;
-    }
-  
-    .input-total {
-      left: 6rem;
-      /* margin-right: 1rem; */
-    /* }  */
-
-    input{
-        /* max-width: 18rem; */
-        /* width: 16rem; */
-        /* outline: 3px solid red; */
-    }
-  
-    /* .img-nav {
-       width: 2.5rem;
-    } */
-  
-    /* .menu-user {
-      width: 160px;
-      height: 180px;
-    } */
-  
-    /* .btns-menu button {
-      padding: 0.4rem 0.7rem;
-      font-size: 13px;
-    } */
-  /* } */
   
   @media (max-width: 800px) {
-    .nav {
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .title-nav,
-    .input-total {
-      left: unset;
+    .input{
+        width: 18rem;   
     }
 
-    .title-nav{
-        left: -10px;
-    }
-
-    .input-total{
-        left: 1rem;
-        top: -10px;
-    }
-
-    input{
-        max-width: 17rem;
+    .btn-nav{
+        border: 1.3px solid;
+        padding: 7px 10px 8px 8px;
+        border-color: #FFFFFF #FFFFFF #FFFFFF transparent;
     }
   
     .img-nav{
         top: 3px;
         right: 3px;
     }
-  
-    /* .menu-user {
-      right: 1rem;
-      width: 160px;
-      height: 160px;
-    } */
-  
-    /* .btns-menu button {
-      padding: 0.3rem 0.6rem;
-      font-size: 12px;
-    } */
+
+    .nav-links {
+        display: none; /* Oculta los enlaces por defecto */
+    }
+    
+    .icon-bars {
+    display: block; /* Muestra el icono de FaBars */
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 1.3rem;
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 4px;
+    border-radius: 4px;
+    }
+    
+    /* Estilos adicionales para el menú desplegable */
+    .nav-links.open {
+    display: block;
+    position: absolute;
+    top: 50px; /* Ajusta la posición vertical según tus necesidades */
+    right: 10px;
+    background-color: #181818; /* Establece el fondo del menú */
+    border: 2px solid #ccc; /* Agrega un borde al menú */
+    padding: 10px; /* Espacio alrededor de los enlaces */
+    z-index: 1;
+    text-align: center;
+    border-radius: 10px;
+    width: 150px;
+    }
   }
 
   @media (max-width: 600px) {
-  .menu-user {
-    width: 220px;
-  }
+    .nav {
+      flex-direction: column;
+      align-items: center;
+    }
 
-  .menu-user p{
-    font-size: 14px;
-    margin-top: -10px;
-  }
+    .title-nav{
+        left: 0px;
+        /* outline: 3px solid red; */
+    } 
 
-  .btns-menu button {
-    font-size: 12px;
-  }
+    .menu-user {
+        width: 220px;
+    }
 
-  .text-menu{
-    margin-left: 10px;
-  }
-    
-  }
+    .menu-user p{
+        font-size: 14px;
+        margin-top: -10px;
+    }
+
+    .btns-menu button {
+        font-size: 12px;
+    }
+
+    .text-menu{
+        margin-left: 10px;
+    }
+
+    .nav-links {
+        display: none; /* Oculta los enlaces por defecto */
+    }
+
+    .nav-links.open {
+        width: 100px;
+    }
+
+}

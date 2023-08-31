@@ -1,4 +1,4 @@
-section{
+.section-detail{
     height: 100vh;
     background: rgba(0, 0, 0, 0.5); 
 } 
@@ -158,10 +158,6 @@ iframe{
   
   /* Para pantallas menores a 800px */
   @media (max-width: 800px) {
-    section{
-        height: 100%;
-        padding-bottom: 4rem;
-    } 
     
     .div-detail {
         flex-direction: column;
@@ -189,7 +185,6 @@ iframe{
     .icon-back {
       top: 5px;
       right: 5px;
-      font-size: 1.5rem;
     }
   
     .icons {
@@ -198,10 +193,6 @@ iframe{
 
     .contenido{
         margin-left: 1.5rem;
-    }
-  
-    .contenido p {
-      font-size: 14px;
     }
 
     .cargando {
@@ -224,14 +215,5 @@ iframe{
         height: 200px;
         max-width: 300px;
     }
-  
-    .div-video h3 {
-      /* margin-left: 1.5rem; */
-      font-size: 14px;
-    }
 
-    .contenido{
-       
-        margin-left: 1rem;
-    }
   }

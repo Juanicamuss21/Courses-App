@@ -2,19 +2,23 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&display=swap');
 
-.div-home{
-    /* outline: 3px solid red; */
+.container-home {
+    margin-bottom: 1rem;
+}
 
+
+.titles-home{
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
     margin: 0 1.8rem;
+    /* outline: 3px solid red; */
     /* font-family: 'Source Sans Pro', sans-serif; */
     /* font-family: 'Nunito', sans-serif; */
     font-family: 'Raleway', sans-serif;
 }
 
-.div-home h1{
+.titles-home h1{
     position: relative;
     top: 7px;
     left: 1rem;
@@ -22,7 +26,7 @@
     color: #1877F2;
 }
 
-.div-home h4{
+.titles-home h4{
     font-weight: 600;
 }
 
@@ -33,23 +37,22 @@
     gap: 4px;
     position: relative;
     top: 10px;
+
 }
 
 @media (max-width: 600px) {
 
-    .div-home{
+    .titles-home{
         width: 100%;
         margin: 0 0;
     }
 
-    .div-home h1{
-        /* right: 10px; */
-        left: 1px;
-        font-size: 22px;
+    .titles-home h1{
+        left: 5px;
+        font-size: 25px;
     }
 
     .title-arrow{
         right: 10px;
-        font-size: 14px;
     }
   }   

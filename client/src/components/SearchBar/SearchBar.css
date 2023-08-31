@@ -45,7 +45,6 @@
   .no-active{
     text-decoration: none;
     color: #fff;
-    
   }
 
   .title-searchbar{
@@ -53,15 +52,15 @@
   }
 
   .no-active :hover{
-    color: #3DADF2;
+    color: #1877F2;
   }
 
   .active{
-    color: #3DADF2;
+    color: #1877F2;
   }
 
   .not-navlink{
-    color: #3DADF2;
+    color: #1877F2;
     cursor: pointer;
   }
 
@@ -135,13 +134,9 @@
     left: -350px;
     width: 350px;
   }
-  
-  .sidebar.open {
-    left: 0;
-  }
 
   .title-searchbar{
-    font-size: 14px;
+    font-size: 15px;
   }
 
   .icon-nav{ 
@@ -152,18 +147,8 @@
 /* Para pantallas menores a 600px */
 @media (max-width: 600px) {
   .sidebar {
-    position: fixed;
-    top: 0;
-    left: -250px;
-    width: 250px;
-  }
-  
-  .sidebar.open {
-    left: 0;
-  }
-
-  .title-searchbar{
-    font-size: 13px;
+    left: -300px;
+    width: 300px;
   }
 
   .icon-nav{ 
