@@ -47,7 +47,7 @@ const VideoCourse = () => {
       </div>
       </div>
 
-        : <h3 className='cargando'>Cargando...</h3>
+        : <span class="loader"></span>
 
       }
       </div>

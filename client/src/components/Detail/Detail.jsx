@@ -50,7 +50,7 @@ const Detail = () => {
                   <h3>{firstVideo.title}</h3>
                 </div>
               </div>
-            : <h3 className='cargando'>Cargando...</h3>
+            : <span class="loader"></span>
         }
       </div>
 

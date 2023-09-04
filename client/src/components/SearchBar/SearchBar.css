@@ -1,17 +1,34 @@
+.modal{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(0,0,0,0.9);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  z-index: 50;
+}
+
+.is-open{
+  display: flex;
+}
+
 .sidebar {
     position: fixed;
     top: 0;
     left: -400px;
     width: 400px;
     height: 100%;
-    /* background-color: #F1EFDC; */
     background: #181818;
-    /* background: #0f0f0f; */
     color: #fff;
     transition: left 0.3s ease-in-out;
     overflow-y: auto;
-    z-index: 1;
     border-right: 2px solid #fff;
+    z-index: 200;
+    animation-name: modal;
+    animation-duration: 0.7s;
   }
   
   .sidebar.open {
@@ -101,6 +118,16 @@
 .input-check{
   cursor: pointer;
   /* width: 18px; */
+}
+
+@keyframes modal {
+  from {
+      transform: translateX(-400px);
+  }
+
+  to {
+      transform: translateX(0px);
+  }
 }
 
 @media (max-width: 1200px) {

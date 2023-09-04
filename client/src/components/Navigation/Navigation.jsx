@@ -88,8 +88,8 @@ const Navigation = () => {
         {
           pathName !== '/' &&
 
-          <div className="nav-container">
-                <FaBars onClick={(e) => handleOutsideClick(e)} className={`icon-bars ${isIconOpen ? 'open' : ''}`}/>
+          <div>
+                <FaBars className={`icon-bars ${isIconOpen ? 'open' : ''}`} onClick={(e) => handleOutsideClick(e)}/>
 
                 <div className={`nav-links ${isIconOpen ? 'open' : ''}`}>
                   <NavLink to="/home/form" className="nav-links_child">
@@ -104,7 +104,7 @@ const Navigation = () => {
 
         </nav>
         <Toaster
-                position='bottom-right'
+                position='top-center'
                 reverseOrder={true}
                 toastOptions={{
                   className: '',

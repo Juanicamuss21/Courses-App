@@ -22,12 +22,14 @@
 }
 
 .input-total {
-    display: none;
+    /* display: none; */
+    visibility: hidden;
     margin-bottom: 12px;
 }
 
 .input-total.visible{
-    display: block;
+    visibility: visible;
+    /* display: block; */
 }
 
 .input{
@@ -71,7 +73,7 @@
     /* color: #03001C; */
 }
 
-.menu-user {
+/* .menu-user {
     visibility: hidden;
     position: absolute;
     right: 1.4rem;
@@ -89,7 +91,7 @@
 .menu-user.open {
     visibility: visible;
     top: 68px;
-}
+} */
 
 .img-nav{
     width: 3rem;
@@ -147,6 +149,14 @@
 
   
   @media (max-width: 800px) {
+    .input-total {
+        display: none;
+    }
+    
+    .input-total.visible{
+        display: block;
+    }
+
     .input{
         width: 18rem;   
     }
@@ -167,31 +177,30 @@
     }
     
     .icon-bars {
-    display: block; /* Muestra el icono de FaBars */
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    cursor: pointer;
-    font-size: 1.3rem;
-    color: #fff;
-    border: 2px solid #fff;
-    padding: 4px;
-    border-radius: 4px;
+        display: block; /* Muestra el icono de FaBars */
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        font-size: 1.3rem;
+        color: #fff;
+        border: 2px solid #fff;
+        padding: 4px;
+        border-radius: 4px;
     }
     
     /* Estilos adicionales para el menú desplegable */
     .nav-links.open {
-    display: block;
-    position: absolute;
-    top: 50px; /* Ajusta la posición vertical según tus necesidades */
-    right: 10px;
-    background-color: #181818; /* Establece el fondo del menú */
-    border: 2px solid #ccc; /* Agrega un borde al menú */
-    padding: 10px; /* Espacio alrededor de los enlaces */
-    z-index: 1;
-    text-align: center;
-    border-radius: 10px;
-    width: 150px;
+        display: block;
+        position: absolute;
+        top: 50px; /* Ajusta la posición vertical según tus necesidades */
+        right: 10px;
+        background-color: #181818;
+        border: 2px solid #ccc; /* Agrega un borde al menú */
+        padding: 10px; /* Espacio alrededor de los enlaces */
+        z-index: 1;
+        text-align: center;
+        border-radius: 10px;
     }
   }
 

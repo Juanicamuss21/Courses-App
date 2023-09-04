@@ -44,34 +44,39 @@ const SearchBar = ({ myVideo }) => {
           <p>Ver más</p>
         }
       </div>
-      <div className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
-        <div className='title-button'>
-        <p>Videos</p>
-        <button onClick={toggleSidebar}><VscChromeClose className='icon-close'/></button>
-        </div>
-        <div>
-          {
-            myVideo.images && JSON.parse(myVideo.images).map(el => {
-              return (
-                  <div key={el.title} className='title-check'>
-                    <div className='title-searchbar'>
-                    {
-                      JSON.parse(myVideo.images).length > 1
-                        ? <NavLink onClick={() => toggleSidebar()} className="no-active" activeclassName="active" to={`/home/videos/${myVideo.id}/${el.id}`}>
-                         <p>{el.title}</p>
-                        </NavLink>
-                        : <p className='not-navlink'>{el.title}</p>
+      <div className={!isSidebarOpen ? 'modal' : 'modal is-open'} onClick={toggleSidebar}>
+        <div className={`sidebar ${isSidebarOpen ? 'open' : ''}`}>
 
-                    }
-                    </div>
-                <input type="checkbox" onChange={(e) => handleCheck(e)} checked={isChecked.includes(el.title)} value={el.title} className='input-check'/>
-                </div>
-              )
-            })
-          }
-        </div>
+          <div className='title-button'>
+          <p>Videos</p>
+          <button onClick={toggleSidebar}><VscChromeClose className='icon-close'/></button>
+          </div>
+
+          <div>
+            {
+              myVideo.images && JSON.parse(myVideo.images).map(el => {
+                return (
+                    <div key={el.title} className='title-check'>
+                      <div className='title-searchbar'>
+                      {
+                        JSON.parse(myVideo.images).length > 1
+                          ? <NavLink onClick={() => toggleSidebar()} className="no-active" activeclassName="active" to={`/home/videos/${myVideo.id}/${el.id}`}>
+                          <p>{el.title}</p>
+                          </NavLink>
+                          : <p className='not-navlink'>{el.title}</p>
+
+                      }
+                      </div>
+                  <input type="checkbox" onChange={(e) => handleCheck(e)} checked={isChecked.includes(el.title)} value={el.title} className='input-check'/>
+                  </div>
+                )
+              })
+            }
+          </div>
+
       </div>
     </div>
+  </div>
   )
 }
 

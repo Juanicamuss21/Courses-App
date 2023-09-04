@@ -19,6 +19,8 @@
     border-radius: 6px;
     background: rgba(0, 0, 0, 0.4);
     gap: 1rem;
+    margin-top: -1rem;
+
 }
 
 .title-landing{
@@ -69,6 +71,7 @@
       padding: 1.5rem;
       font-size: 0.9rem;
       gap: 3px;  
+      margin-top: 0;
     }
 
 }
