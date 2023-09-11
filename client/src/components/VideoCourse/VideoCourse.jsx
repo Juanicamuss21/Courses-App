@@ -22,8 +22,6 @@ const VideoCourse = () => {
 
   const video = myVideo.images && JSON.parse(myVideo.images).find(el => el.id === parseInt(idVideo))
 
-  console.log(myVideo.images && video)
-
   return (
     <section className='section-detail'>
 

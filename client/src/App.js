@@ -7,8 +7,8 @@ import Landing from './components/Landing/Landing'
 import FormCourse from './components/FormCourse/FormCourse'
 import About from './components/About/About'
 import axios from 'axios'
-// axios.defaults.baseURL = 'http://localhost:3001/'
-axios.defaults.baseURL = 'http://192.168.0.18:3001/'
+axios.defaults.baseURL = 'http://localhost:3001/'
+// axios.defaults.baseURL = 'http://192.168.0.12:3001/'
 // axios.defaults.baseURL = 'https://courses-app-production-d242.up.railway.app/';
 
 function App () {

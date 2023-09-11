@@ -83,31 +83,19 @@ iframe{
     color: #fff;
     padding: 0.6rem 1rem;
     border-radius: 6px;
-    outline: 3px solid #fff;
 }
-
-/* .documentation:hover{
-    background: rgba(0, 0, 0, 0.9);
-    color: #fff;
-} */
 
 .contenido{
     margin-bottom: 3rem;
     width: 100%;
-    /* outline: 3px solid #fff; */
-    /* height: 100%; */
 }
-
-/* .contenido h2{
-    
-   
-} */
 
 .category-detail{
     color: #3DADF2;
 }
 
 .contenido p{
+    width: 90%;
     font-size: 15px;
 }
 
